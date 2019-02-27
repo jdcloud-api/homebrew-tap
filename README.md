@@ -1,6 +1,6 @@
 # homebrew-tap
 
-* install homebrew: /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+* install homebrew: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 for more information on homebrew: https://brew.sh/
 
