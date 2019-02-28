@@ -6,10 +6,23 @@ for more information on homebrew: https://brew.sh/
 
 ## Usage
 
+### jdcloud-cli
+
 ```sh
 brew tap jdcloud-api/tap
 brew install jdcloud-cli --HEAD
 
-# not works, blocked by https://github.com/jdcloud-api/jdcloud-cli/pull/42
+# not works, waiting for new releases
 # brew install jdcloud-cli
 ```
+
+### libjdcloud_signer
+
+```sh
+brew tap jdcloud-api/tap
+brew install libjdcloud_signer --HEAD
+
+# not works, waiting for new releases
+# brew install libjdcloud_signer
+```
+
