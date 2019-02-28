@@ -5,7 +5,7 @@ class JdcloudCli < Formula
     homepage "https://github.com/jdcloud-api/jdcloud-cli"
     url "https://github.com/jdcloud-api/jdcloud-cli/archive/v1.0.3.tar.gz"
     sha256 "af57a0138a179fcb539d1496925a30df57d87b8b9da2acf5f6d19209b13bd7d8"
-    head 'https://github.com/jdcloud-api/jdcloud-cli.git', :branch => "lidaobing-patch-2"
+    head 'https://github.com/jdcloud-api/jdcloud-cli.git'
 
     depends_on "python"
   
