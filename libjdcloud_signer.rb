@@ -8,6 +8,9 @@ class LibjdcloudSigner < Formula
 
   depends_on 'openssl'
   depends_on 'cmake' => :build
+  unless OS.mac?
+    depends_on "libuuid"
+  end
 
   def install
     system "cmake", "-DCMAKE_INSTALL_PREFIX:PATH=#{prefix}", "."
