@@ -2,8 +2,6 @@ language: cpp
 os:
   - osx
 script:
-  - pwd
-  - ls
   - brew install ./libjdcloud_signer.rb
   - brew uninstall libjdcloud_signer
   - brew install --HEAD ./libjdcloud_signer.rb
