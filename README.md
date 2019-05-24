@@ -20,9 +20,11 @@ brew install jdcloud-cli --HEAD
 
 ```sh
 brew tap jdcloud-api/tap
-brew install libjdcloud_signer --HEAD
 
-# not works, waiting for new releases
-# brew install libjdcloud_signer
+# install stable version
+brew install libjdcloud_signer
+
+# install head version
+brew install libjdcloud_signer --HEAD
 ```
 
