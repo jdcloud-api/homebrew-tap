@@ -18,11 +18,14 @@ brew install jdcloud-cli --HEAD
 
 ### libjdcloud_signer
 
+* homepage: https://github.com/jdcloud-api/jdcloud-sdk-cpp-signer
+
 ```sh
 brew tap jdcloud-api/tap
+
+# stable version
+brew install libjdcloud_signer
+
+# head version
 brew install libjdcloud_signer --HEAD
-
-# not works, waiting for new releases
-# brew install libjdcloud_signer
 ```
-
