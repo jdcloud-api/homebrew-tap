@@ -1,0 +1,8 @@
+language: cpp
+os:
+  - osx
+script:
+  - brew install ./jdcloud_cli.rb
+  - brew uninstall jdcloud_cli
+  - brew install --HEAD ./jdcloud_cli.rb
+  - brew uninstall jdcloud_cli
