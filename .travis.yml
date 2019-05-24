@@ -8,3 +8,6 @@ script:
   - brew uninstall jdcloud_cli
   - brew install --HEAD ./jdcloud_cli.rb
   - brew uninstall jdcloud_cli
+cache:
+  directories:
+    - /usr/local/Homebrew
