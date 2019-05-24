@@ -4,10 +4,10 @@ os:
 script:
   - pwd
   - ls
-  - brew install ./jdcloud_cli.rb
-  - brew uninstall jdcloud_cli
-  - brew install --HEAD ./jdcloud_cli.rb
-  - brew uninstall jdcloud_cli
+  - brew install ./libjdcloud_signer.rb
+  - brew uninstall libjdcloud_signer
+  - brew install --HEAD ./libjdcloud_signer.rb
+  - brew uninstall libjdcloud_signer
 cache:
   directories:
     - /usr/local/Homebrew
